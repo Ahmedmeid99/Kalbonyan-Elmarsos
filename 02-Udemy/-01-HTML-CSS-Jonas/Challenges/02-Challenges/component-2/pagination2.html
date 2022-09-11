@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .pagination {
+            margin: 200px auto;
+            width: fit-content;
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon-left,
+        .icon-right,
+
+        .num {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .num:hover {
+            background-color: #026491;
+            color: white;
+        }
+
+        .icon-left,
+        .icon-right {
+            width: 50px;
+            height: 50px;
+            color: #026491;
+            border: 2px solid #026491;
+            background-color: white;
+            box-shadow: 0px 0px 7px rgb(0 0 0 / 10%);
+        }
+
+        .icon-left:hover,
+        .icon-right:hover {
+            background-color: #026491;
+            color: white;
+        }
+
+        .num.active {
+            background-color: #026491;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pagination">
+        <button class="icon-left">+</button>
+        <a class="num">1</a>
+        <a class="num">2</a>
+        <a class="num active">3</a>
+        <a class="num">4</a>
+        <a class="num">5</a>
+        <span class="dots">...</span>
+        <a class="num">23</a>
+        <button class="icon-right">+</button>
+    </div>
+</body>
+
+</html>
