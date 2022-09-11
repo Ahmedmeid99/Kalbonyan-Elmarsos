@@ -3,13 +3,13 @@
 ## Projects
 ### Todo app
 - [Project-code](./Projects/Todo-app)
-- [Live Demo]()
+- [Live Demo](https://main-todo-app.netlify.app)
 ###  Notes app
 - [Project-code](./Projects/Notes-app)
-- [Live Demo]()
+- [Live Demo](https://main-notes-app.netlify.app)
 ### Hangman-Game
 - [Project-code](./Projects/Hangman-Game)
-- [Live Demo]()
+- [Live Demo](https://hangman-game-guess.netlify.app)
 
 ---
 ## Code
@@ -18,4 +18,4 @@
 ---
 [Course-Link](https://www.udemy.com/course/modern-javascript/)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+![Certificate](https://drive.google.com/file/d/19QphUUmyu4hIaOfbqqA_wfp-jAdOZoLE/view?usp=sharing)
