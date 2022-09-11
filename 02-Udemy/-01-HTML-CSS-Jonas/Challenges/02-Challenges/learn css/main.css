@@ -1,0 +1,36 @@
+/* comment 1 */
+/*
+ comment 2
+ */
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(197, 195, 195);
+}
+h1,
+h2,
+h3 {
+  color: rgb(21, 118, 202);
+}
+p {
+  line-height: 1.5;
+}
+nav a {
+  color: blue;
+  font-size: 20px;
+}
+.last-item {
+  list-style: none;
+}
+aside {
+  background-color: #ccc;
+  border-top: 5px solid #0792e2;
+  border-bottom: 5px solid #0792e2;
+}
+#line {
+  color: rgb(28, 230, 38);
+}
+footer {
+  background-color: #ccc;
+}
