@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+
+        .container {
+            width: 700px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .one {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .active-qa {
+            border-top: 5px solid rgb(2, 85, 22);
+        }
+
+        .active {
+            color: rgb(2, 85, 22);
+        }
+
+        .num {
+            color: #ccc;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .num.active {
+            color: rgb(2, 85, 22)
+        }
+
+        .icon {
+
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .qa {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 32px;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .que {
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        .content {
+            padding: 20px 70px;
+        }
+
+        ul {
+            padding: 32px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one ">
+            <div class="qa">
+                <div class="num">01</div>
+                <p class="que">How old are you ?</p>
+                <div class="icon"> + </div>
+            </div>
+
+        </div>
+        <div class="one active-qa">
+            <div class="qa">
+                <div class="num active">02</div>
+                <p class="que active">How old are you ?</p>
+                <div class="icon active"> + </div>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto expedita quos nulla incidunt unde
+                    sunt quasi nobis voluptatem, distinctio commodi recusandae iste hic provident atque fuga? Natus
+                    corporis odio saepe!</p>
+                <ul>
+                    <li> distinctio commodi recusandae iste hic provident atque fuga? Natus
+                    </li>
+                    <li>dolor sit amet consectetur, adipisicing elit. Iusto expedita quos nulla</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="one">
+            <div class="qa">
+                <div class="num">03</div>
+                <p class="que">How old are you ?</p>
+                <div class="icon"> + </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
