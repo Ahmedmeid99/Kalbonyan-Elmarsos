@@ -1,0 +1,36 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-color: #ccc;
+}
+header h1 {
+  color: rgb(1, 179, 202);
+}
+header nav {
+  padding: 7px;
+}
+header nav a:link {
+  color: rgb(31, 1, 202);
+  text-decoration: none;
+  margin: 7px;
+}
+header nav a:link:hover {
+  text-decoration: underline dotted rgb(255, 3, 3);
+}
+h3 {
+  color: rgb(1, 179, 202);
+}
+ol li:first-child {
+  color: green;
+  font-weight: bold;
+}
+ol li:last-child {
+  color: red;
+  font-weight: bold;
+}
+.last li:nth-child(odd) {
+  color: blue;
+  background-color: #ccc;
+}
