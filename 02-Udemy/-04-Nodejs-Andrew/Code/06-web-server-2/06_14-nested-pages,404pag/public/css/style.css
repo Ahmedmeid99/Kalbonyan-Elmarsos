@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+}
+h3 {
+  color: blue;
+}
+p {
+  color: gray;
+}
+ul li,
+ol li {
+  color: rgb(24, 90, 148);
+}
+img {
+  height: 250px;
+}
