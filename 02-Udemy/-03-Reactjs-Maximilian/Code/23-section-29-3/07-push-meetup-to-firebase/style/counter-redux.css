@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #252525;
+  background-color: #252525;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #3c0080;
+  border: 1px solid #3c0080;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active {
+  background-color: #5b14ac;
+  border-color: #5b14ac;
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3c0080;
+  color: white;
+  padding: 0 10%;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.header a:hover,
+.header a:active {
+  color: #b864da;
+}
+
+.header button {
+  font-size: 1.25rem;
+  background-color: #ffbb00;
+  border: 1px solid #ffbb00;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #2c2922;
+}
+
+.header button:hover,
+.header button:active {
+  background-color: #ffa600;
+  border-color: #ffa600;
+}
+
+.profile {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+.counter {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.counter h1 {
+  text-transform: uppercase;
+  color: #575757;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.value {
+  font-size: 2rem;
+  color: #3c0080;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.auth {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: #616161;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
