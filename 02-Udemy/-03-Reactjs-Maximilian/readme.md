@@ -87,7 +87,7 @@
 ### Authentication-page(S22)
 
 - [Project-code](./Projects/Authentication-page)
-- [Live Demo]()
+- [Live Demo](https://majestic-jelly-cde7b5.netlify.app/profile)
 
 ### Meetsup app(S23)
 
