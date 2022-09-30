@@ -52,7 +52,7 @@
 ### movies app(S14)
 
 - [Project-code](./Projects/movies-app)
-- [Live Demo]()
+- [Live Demo](https://legendary-swan-bac8bc.netlify.app)
 
 ### Tasks app with firebase(S15)
 
