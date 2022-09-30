@@ -27,7 +27,7 @@
 ### Section 8-9 Project
 
 - [Project-code](./Projects/section-8-9-project)
-- [Live Demo]()
+- [Live Demo](https://transcendent-rabanadas-7b5f6c.netlify.app)
 
 ### Login-app (S10)
 
