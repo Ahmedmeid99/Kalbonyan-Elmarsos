@@ -7,10 +7,10 @@
 - [Project-code](./Projects/Task-Manager-API)
 ### Weather App
 - [Project-code](./Projects/Weather-App)
-- [Live Demo]()
+- [Live Demo](https://weather-app1999.herokuapp.com/)
 ### Chat App
 - [Project-code](./Projects/Chat-App)
-- [Live Demo]()
+- [Live Demo](https://chat-app-main-io.herokuapp.com)
 
 ---
 ## Code
@@ -19,5 +19,5 @@
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)<br>
 
-![Certificate](https://chat-app-main-io.herokuapp.com)
+![Certificate]()
 
