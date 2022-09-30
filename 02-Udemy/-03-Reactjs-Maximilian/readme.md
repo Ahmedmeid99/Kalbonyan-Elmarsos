@@ -117,7 +117,7 @@
 ### Section 29 Project
 
 - [Project-code](./Projects/Section-29/)
-- [Live Demo]()
+- [Live Demo](https://lovely-mochi-36c1fe.netlify.app)
 
 ---
 
