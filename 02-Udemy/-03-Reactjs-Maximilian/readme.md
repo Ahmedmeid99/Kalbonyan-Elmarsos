@@ -72,7 +72,7 @@
 ### Redux Counter(S18)
 
 - [Project-code](./Projects/redux-counter)
-- [Live Demo]()
+- [Live Demo](https://neon-cannoli-2bb83b.netlify.app)
 
 ### Redux Cart(S19)
 
