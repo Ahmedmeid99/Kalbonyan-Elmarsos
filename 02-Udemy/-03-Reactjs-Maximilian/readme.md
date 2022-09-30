@@ -112,7 +112,7 @@
 ### ingredients-app(S28)
 
 - [Project-code](./Projects/ingredients-app/)
-- [Live Demo]()
+- [Live Demo](https://bright-bublanina-34c4e4.netlify.app)
 
 ### Section 29 Project
 
