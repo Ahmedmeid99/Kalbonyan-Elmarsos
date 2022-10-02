@@ -1,0 +1,13 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+  border: 3px solid #00a7e9;
+}
+
+.btn {
+  background-color: #222;
+  color: white;
+}
+.btn:hover {
+  background-color: #000;
+}
