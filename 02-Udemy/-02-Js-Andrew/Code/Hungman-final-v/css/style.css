@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #2b292e;
+  color: #fafafa;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: cursive, sans-serif;
+}
+header {
+  position: absolute;
+  top: 0px;
+  background: #05762d;
+  width: 100%;
+  height: 100px;
+}
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+h1 {
+  margin: 30px 50px;
+}
+span {
+  border-bottom: 1px solid #534f59;
+  display: inline-block;
+  font-size: 2rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  margin: 0 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 2.4rem;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+p {
+  font-weight: 300;
+  margin-bottom: 1.8rem;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.puzzle {
+  display: flex;
+  margin-bottom: 4.8rem;
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button {
+  background: #7044a0;
+  border: none;
+  border-bottom: 2px solid #603a88;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: 0.8rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background: #5f3a87;
+}
